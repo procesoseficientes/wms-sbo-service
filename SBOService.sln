@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SBOService", "SBOService.csproj", "{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Debug|x64.ActiveCfg = Debug|x64
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Debug|x64.Build.0 = Debug|x64
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Release|x64.ActiveCfg = Release|x64
+		{FBFB4A3A-A9F9-4A08-8A20-E4E96C1AB113}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFA24237-F0BD-405A-BB40-FC5BA3B8E71D}
+	EndGlobalSection
+EndGlobal
