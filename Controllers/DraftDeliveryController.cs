@@ -30,7 +30,7 @@ namespace SBOService.Controllers
         [Route("/")]
         public ActionResult Info()
         {
-            return Ok("1.0.3");
+            return Ok("1.0.4");
         }
 
         [HttpGet]

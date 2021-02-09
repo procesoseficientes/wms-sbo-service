@@ -52,16 +52,10 @@ namespace SBOService.Services
 
             if (retVal == true)
             {
-                if (draft.SaveDraftToDocument() == 0)
+                string key = draft.DocNum.ToString();
+                draft.UserFields.Fields.Item("U_Estado2").Value = "05";
+                if (draft.Update() == 0 && draft.SaveDraftToDocument() == 0)
                 {
-                    string key = oCompany.GetNewObjectKey();
-                    //draft.UserFields.Fields.Item("U_estado2").Value = "05";
-                    //draft.Update();
-                    draft.Remove();
-                    Documents deliveryNote = (Documents)oCompany.GetBusinessObject(BoObjectTypes.oDeliveryNotes);
-                    deliveryNote.GetByKey(Int32.Parse(key));
-                    deliveryNote.UserFields.Fields.Item("u_estado2").Value = "05";
-                    deliveryNote.Update();
                     return key;
                 }
                 
