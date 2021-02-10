@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <Platforms>AnyCPU;x64</Platforms>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -26,7 +27,7 @@
 
   <ItemGroup>
     <Reference Include="SAPBusinessOneSDK">
-      <HintPath>..\..\..\work\sbo-interface\MobilityScm.Modelo.Sbo\bin\Release\SAPBusinessOneSDK.dll</HintPath>
+      <HintPath>E:\swift-wms-windows\WmsOnePlan\DLL'S\SAPBusinessOneSDK.dll</HintPath>
     </Reference>
   </ItemGroup>
 

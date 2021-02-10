@@ -24,20 +24,21 @@ namespace SBOService.Controllers
         {
             _appSettings = options.Value;
             _sapService = new SAPService(_appSettings);
+            _sapService.Connect();
         }
 
         [HttpGet]
         [Route("/")]
         public ActionResult Info()
         {
-            return Ok("1.0.4");
+            return Ok("1.0.5");
         }
 
         [HttpGet]
         [Route("CloseDraft/{DocEntry}")]
         public ActionResult CancelDraftDelivery(int DocEntry)
         {
-            _sapService.Connect();
+            
             return Ok(_sapService.SaveDraftToDocument(DocEntry));
         }
     }
